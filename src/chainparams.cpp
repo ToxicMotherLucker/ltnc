@@ -130,6 +130,7 @@ public:
         consensus.beeCostFactor = 2500;
         consensus.beeCreationAddress = "CReateLitecoinCashWorkerBeeXYs19YQ";
         consensus.hiveCommunityAddress = "CeckYLfkWnViDxKE1R5vLZaarygLrNgUwa";
+        consensus.hiveCommunityAddress2 = "CGVHF7vhCna4WyNfZ3ZHtMVHforhsX1BWW";
         consensus.communityContribFactor = 10;
         consensus.beeGestationBlocks = 48*24;
         consensus.beeLifespanBlocks = 48*24*14;
