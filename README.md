@@ -1,23 +1,23 @@
 <img src="https://i.ibb.co/3rvpw0v/68747470733a2f2f692e6962622e636f2f52767971784b4e2f626974636f696e2e706e67.png" alt="68747470733a2f2f692e6962622e636f2f52767971784b4e2f626974636f696e2e706e67" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'></a><br />
 
-# Lightning Cash Gold
+# Lightning Cash
 ===========================================
 
-What is LightningCash-Gold ?
+What is LightningCash ?
 ----------------------
 
-Lightning Cash Gold is a coin based on Yespower POW algorithm, including DarkGravityWave ( difficulty changes for every block ) and possible CURRENT block difficulty change over time to protect against high network hash variation and long stale tip. For full details, please visit our website at http://lightningcash.gold . Compiled binary releases are available on Github.
+Lightning Cash is a coin based on Yespower POW algorithm, including DarkGravityWave ( difficulty changes for every block ) and possible CURRENT block difficulty change over time to protect against high network hash variation and long stale tip. For full details, please visit our website at http://lightningcash.gold . Compiled binary releases are available on Github.
 
-Lightning Cash Gold Core is the full node software that makes up the backbone of the LTNCG network.
+Lightning Cash Core is the full node software that makes up the backbone of the LTNC network.
 
 
-Website : https://www.ltncg.com
+Website : https://www.ltnc.com
 
-Twitter : https://www.twitter.com/ltncg
+Twitter : https://www.twitter.com/ltnc
 
 Discord Channel : https://discord.gg/bzcQ8ZM
 
-Block Explorer : https://explorer.ltncg.com
+Block Explorer : https://explorer.ltnc.com
 
 
 
@@ -25,15 +25,15 @@ Characteristics
 ---------------------------------------------------------------------------
 
 
-- Hash Algorithm : YespowerLTNCG POW algorithm    ( CPU only )
+- Hash Algorithm : YespowerLTNC POW algorithm    ( CPU only )
 
 ( With the addition of modified Dash's DarkGravityWave v3 algorithm, that changes difficulty every block, and progressively lowers difficulty if long stale tips happens. Tested and fully working !!)
 
 - The Hive : A " hodl and profit " mining system accessible to everyone, that works side by side with POW mining, invented by  LitecoinCash's developers !!
 
-- Total Supply : 210,000,000 LTNCG
+- Total Supply : 210,000,000 LTNC
 
-- Difficulty adjusted every block and possibly in CURRENT block if a long network stale tip happens !! This protects LightningCash-Gold from high hash variations and " high hash attacks " , that happens frequently for new coins and kills them by making the mining difficulty too high for the " normal " network's hash rate. 
+- Difficulty adjusted every block and possibly in CURRENT block if a long network stale tip happens !! This protects LightningCash from high hash variations and " high hash attacks " , that happens frequently for new coins and kills them by making the mining difficulty too high for the " normal " network's hash rate. 
 
 - Changed famous NOMP ( node open mining portal ) pool software to include possible CURRENT block difficulty change and send new work to miners if so.
 
@@ -49,14 +49,14 @@ Characteristics
 
 
 
-LightningCash Gold is based on LitecoinCash Core, Litecoin Core and Bitcoin Core's open source codes.
-LightningCash Gold is an independant coin and is not associated in any way with LitecoinCash.
+LightningCash is based on LitecoinCash Core, Litecoin Core and Bitcoin Core's open source codes.
+LightningCash is an independant coin and is not associated in any way with LitecoinCash.
 
 
 License
 -------
 
-Lightning Cash Gold Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+Lightning Cash Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 

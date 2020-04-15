@@ -32,14 +32,14 @@ uint256 CBlockHeader::GetHashYespower() const
     uint256 thash;
     CDataStream ss(SER_NETWORK, PROTOCOL_VERSION);
     ss << *this;
-    yespower_params_t yespower_1_0_ltncgyes = {
+    yespower_params_t yespower_1_0_ltncyes = {
         .version = YESPOWER_1_0,
         .N = 2048,
         .r = 32,
         .pers = (const uint8_t *)"LTNCGYES",
         .perslen = 8 
     };
-    if (yespower_tls( (unsigned char *)&ss[0], ss.size(), &yespower_1_0_ltncgyes, (yespower_binary_t *)&thash) ) {
+    if (yespower_tls( (unsigned char *)&ss[0], ss.size(), &yespower_1_0_ltncyes, (yespower_binary_t *)&thash) ) {
         abort();
     }
     return thash;
@@ -50,7 +50,7 @@ uint256 CBlockHeader::GetHashYespower() const
 std::string CBlock::ToString() const
 {
     std::stringstream s;
-    // LightningCash Gold: Hive: Include type
+    // LightningCash: Hive: Include type
     s << strprintf("CBlock(type=%s, hash=%s, powHash=%s, yespowerpow=%s, ver=0x%08x, hashPrevBlock=%s, hashMerkleRoot=%s, nTime=%u, nBits=%08x, nNonce=%u, vtx=%u)\n",
         IsHiveMined(Params().GetConsensus()) ? "hive" : "pow",
         GetHash().ToString(),

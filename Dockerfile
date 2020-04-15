@@ -30,8 +30,8 @@ RUN make
 
 RUN make install
 
-RUN mkdir /root/.lightningcash_gold
+RUN mkdir /root/.lightningcash
 
-RUN cp lightningcash_gold.conf /root/.lightningcash_gold/lightningcash_gold.conf
+RUN cp lightningcash.conf /root/.lightningcash/lightningcash.conf
 
 EXPOSE 9111 9110
