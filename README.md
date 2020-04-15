@@ -1,23 +1,21 @@
-<img src="https://i.ibb.co/3rvpw0v/68747470733a2f2f692e6962622e636f2f52767971784b4e2f626974636f696e2e706e67.png" alt="68747470733a2f2f692e6962622e636f2f52767971784b4e2f626974636f696e2e706e67" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'></a><br />
+<a href="https://ibb.co/FHSpvY7"><img src="https://i.ibb.co/y4w2Tks/lightningcash-splash.png" alt="lightningcash-splash" border="0"></a>
 
-# Lightning Cash
+# LightningCash
 ===========================================
 
 What is LightningCash ?
 ----------------------
 
-Lightning Cash is a coin based on Yespower POW algorithm, including DarkGravityWave ( difficulty changes for every block ) and possible CURRENT block difficulty change over time to protect against high network hash variation and long stale tip. For full details, please visit our website at http://lightningcash.gold . Compiled binary releases are available on Github.
+Lightning Cash is a coin based on Yespower POW algorithm, including DarkGravityWave ( difficulty changes for every block ) and possible CURRENT block difficulty change over time to protect against high network hash variation and long stale tip. For full details, please visit our website at https://lightningcash.tk . Compiled binary releases are available on Github.
 
-Lightning Cash Core is the full node software that makes up the backbone of the LTNC network.
+LightningCash Core is the full node software that makes up the backbone of the LTNC network.
 
 
-Website : https://www.ltnc.com
+Website :https://lightningcash.tk
 
-Twitter : https://www.twitter.com/ltnc
+Pool : https://pool.lightningcash.tk
 
-Discord Channel : https://discord.gg/bzcQ8ZM
-
-Block Explorer : https://explorer.ltnc.com
+Block Explorer : https://explorer.lightningcash.tk
 
 
 
@@ -25,7 +23,7 @@ Characteristics
 ---------------------------------------------------------------------------
 
 
-- Hash Algorithm : YespowerLTNC POW algorithm    ( CPU only )
+- Hash Algorithm : YespowerLTNCG POW algorithm    ( CPU only ) ( same algorithm as LightningCash-Gold so the same CPU miners can be used ! )
 
 ( With the addition of modified Dash's DarkGravityWave v3 algorithm, that changes difficulty every block, and progressively lowers difficulty if long stale tips happens. Tested and fully working !!)
 
@@ -45,25 +43,25 @@ Characteristics
 
 - Block Reward : 5 LightningCash - halved every 8 400 000 blocks
 
-- Synchronising the wallet takes about 1 hour with a normal download speed.
+- Synchronising the wallet takes about 2 hours with a normal download speed.
 
 
 
-LightningCash is based on LitecoinCash Core, Litecoin Core and Bitcoin Core's open source codes.
-LightningCash is an independant coin and is not associated in any way with LitecoinCash.
+LightningCash is based on LightningCash-Gold, LitecoinCash Core, Litecoin Core and Bitcoin Core's open source codes.
+LightningCash is an independant coin and is not associated in any way with LitecoinCash or LightningCash-Gold.
 
 
 License
 -------
 
-Lightning Cash Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+LightningCash Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 
 Development Process
 -------------------
 
-You can fork LitecoinCash-Gold github's repository, tweak the code and suggest pull request if you have bug fixes or improvements to propose.
+You can fork LightningCash github's repository, tweak the code and suggest pull request if you have bug fixes or improvements to propose.
 
 Testing
 -------
