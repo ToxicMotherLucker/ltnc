@@ -2493,7 +2493,7 @@ bool CheckHiveProof(const CBlock* pblock, const Consensus::Params& consensusPara
 	    
 	    CScript scriptPubKeyCF;
 
-	    if ((chainActive.Tip()->nHeight) >= nLightFork)
+	    if (bctFoundHeight >= nLightFork)
 		scriptPubKeyCF = GetScriptForDestination(DecodeDestination(consensusParams.hiveCommunityAddress2));
 	    else
 		scriptPubKeyCF = GetScriptForDestination(DecodeDestination(consensusParams.hiveCommunityAddress));
@@ -2799,9 +2799,9 @@ bool CheckHiveProof2(const CBlock* pblock, const Consensus::Params& consensusPar
         }
 
         if (communityContrib) {
-            CScript scriptPubKeyCF;
+	    CScript scriptPubKeyCF;
 
-	    if ((chainActive.Tip()->nHeight) >= nLightFork)
+	    if (bctFoundHeight >= nLightFork)
 		scriptPubKeyCF = GetScriptForDestination(DecodeDestination(consensusParams.hiveCommunityAddress2));
 	    else
 		scriptPubKeyCF = GetScriptForDestination(DecodeDestination(consensusParams.hiveCommunityAddress));
@@ -3145,9 +3145,9 @@ bool CheckHiveProof3(const CBlock* pblock, const Consensus::Params& consensusPar
         }
 
         if (communityContrib) {
-            CScript scriptPubKeyCF;
+	    CScript scriptPubKeyCF;
 
-	    if ((chainActive.Tip()->nHeight) >= nLightFork)
+	    if (bctFoundHeight >= nLightFork)
 		scriptPubKeyCF = GetScriptForDestination(DecodeDestination(consensusParams.hiveCommunityAddress2));
 	    else
 		scriptPubKeyCF = GetScriptForDestination(DecodeDestination(consensusParams.hiveCommunityAddress));
